@@ -21,14 +21,14 @@ namespace Libraries.Test
         [TestMethod]
         public void VarianceTest()
         {
-            double result = Stat.variance(new double[] { 1.1, 2.2, 3.3 });
+            double result = Stat.Variance(new double[] { 1.1, 2.2, 3.3 });
             Assert.IsTrue(result > 0);
         }
 
         [TestMethod]
         public void SumOfSquaresTest()
         {
-            double result = Stat.sumOfSquares(new double[] { 1.1, 2.2, 3.3 });
+            double result = Stat.SumOfSquares(new double[] { 1.1, 2.2, 3.3 });
             Assert.IsTrue(result > 0);
         }
 

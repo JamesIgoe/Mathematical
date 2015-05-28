@@ -1,0 +1,17 @@
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\obj\Debug\Libraries.Test.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\xunit.execution.desktop.dll
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\Libraries.Test.dll
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\Libraries.Test.pdb
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\Mathematical.dll
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\xunit.abstractions.dll
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\xunit.assert.dll
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\xunit.core.dll
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\Mathematical.pdb
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\Mathematical.xml
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\xunit.abstractions.xml
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\xunit.assert.pdb
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\xunit.assert.xml
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\xunit.core.pdb
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\bin\Debug\xunit.core.xml
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\obj\Debug\Libraries.Test.dll
+C:\Users\James\Documents\GitHub\MathematicalGit\Libraries.Test\obj\Debug\Libraries.Test.pdb

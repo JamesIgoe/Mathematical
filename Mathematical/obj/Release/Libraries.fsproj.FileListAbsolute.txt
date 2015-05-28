@@ -1,0 +1,5 @@
+C:\Users\James\Documents\GitHub\MathematicalGit\Mathematical\bin\Release\Mathematical.XML
+C:\Users\James\Documents\GitHub\MathematicalGit\Mathematical\bin\Release\Mathematical.dll
+C:\Users\James\Documents\GitHub\MathematicalGit\Mathematical\bin\Release\Mathematical.pdb
+C:\Users\James\Documents\GitHub\MathematicalGit\Mathematical\obj\Release\Mathematical.dll
+C:\Users\James\Documents\GitHub\MathematicalGit\Mathematical\obj\Release\Mathematical.pdb
