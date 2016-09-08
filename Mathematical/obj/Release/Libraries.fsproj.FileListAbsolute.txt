@@ -1,5 +1,20 @@
-C:\Users\James\Documents\GitHub\MathematicalGit\Mathematical\bin\Release\Mathematical.XML
-C:\Users\James\Documents\GitHub\MathematicalGit\Mathematical\bin\Release\Mathematical.dll
-C:\Users\James\Documents\GitHub\MathematicalGit\Mathematical\bin\Release\Mathematical.pdb
-C:\Users\James\Documents\GitHub\MathematicalGit\Mathematical\obj\Release\Mathematical.dll
-C:\Users\James\Documents\GitHub\MathematicalGit\Mathematical\obj\Release\Mathematical.pdb
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\bin\Release\Mathematical.XML
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\bin\Release\Mathematical.dll
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\bin\Release\Mathematical.pdb
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\obj\Release\Mathematical.dll
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\obj\Release\Mathematical.pdb
+C:\Users\James\Desktop\Mathematical\Mathematical\bin\Release\Mathematical.XML
+C:\Users\James\Desktop\Mathematical\Mathematical\bin\Release\Mathematical.dll
+C:\Users\James\Desktop\Mathematical\Mathematical\bin\Release\Mathematical.pdb
+C:\Users\James\Desktop\Mathematical\Mathematical\bin\Release\FSharp.Core.dll
+C:\Users\James\Desktop\Mathematical\Mathematical\bin\Release\FSharp.Core.xml
+C:\Users\James\Desktop\Mathematical\Mathematical\obj\Release\Mathematical.dll
+C:\Users\James\Desktop\Mathematical\Mathematical\obj\Release\Mathematical.pdb
+C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\bin\Release\Mathematical.XML
+C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\bin\Release\Mathematical.dll
+C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\bin\Release\Mathematical.pdb
+C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\obj\Release\Mathematical.dll
+C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\obj\Release\Mathematical.pdb
+C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\bin\Release\FSharp.Core.dll
+C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\bin\Release\FSharp.Core.xml

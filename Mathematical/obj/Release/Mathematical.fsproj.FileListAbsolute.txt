@@ -1,0 +1,6 @@
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\bin\Release\Mathematical.XML
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\bin\Release\Mathematical.dll
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\bin\Release\Mathematical.pdb
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\obj\Release\Mathematical.dll
+C:\Documents and Settings\bt_admin\Desktop\Projects\Mathematical\Mathematical\obj\Release\Mathematical.pdb

@@ -1414,3 +1414,142 @@ let RandomArrayParallel count =
     Array.sum arr
     
 let RandomArrayParallelResult = RandomArrayParallel 1001
+
+
+//Euler #33
+//Digit cancelling fractions
+//The fraction 49/98 is a curious fraction, as an inexperienced mathematician in attempting
+// to simplify it may incorrectly believe that 49/98 = 4/8, which is correct, is obtained by cancelling the 9s.
+//
+// We shall consider fractions like, 30/50 = 3/5, to be trivial examples.
+//There are exactly four non-trivial examples of this type of fraction, less than one in value, and containing two digits in the numerator and denominator.
+//
+//If the product of these four fractions is given in its lowest common terms, find the value of the denominator
+
+//Algorithm....
+//Build array of digit pairs, from 1,1,2 to 8,8,9
+//Build larger array for each pair
+//Numerator is Floor(n/10)
+//Denominator is n mod 10
+//If (Floor(n/10) / d mod 10) = n / d then true, else false
+open System
+
+let product xs ys = seq{for x in xs do 
+                            for y in ys do 
+                                let a = float x % float 10
+                                let b = System.Math.Floor(float y / float 10)
+                                let c = (float x - a) / float 10
+                                let d = float y - (b * float 10)
+                                if a = b && x < y && (c/d = float x / float y) then
+                                    yield x, y}
+
+let fstList = product [11..99] [11..99] |> Seq.toList |> List.map (fun x -> fst x)
+let sndList = product [11..99] [11..99] |> Seq.toList |> List.map (fun x -> snd x)
+
+let fstProd = fstList.[0] * fstList.[1] * fstList.[2] * fstList.[3]
+let sndProd = sndList.[0] * sndList.[1] * sndList.[2] * sndList.[3]
+
+let result = float fstProd / float sndProd
+
+
+//Integer right triangles
+//Problem 39
+//If p is the perimeter of a right angle triangle with integral length sides, {a,b,c}, there are exactly three solutions for p = 120.
+//
+//{20,48,52}, {24,45,51}, {30,40,50}
+//
+//For which value of p ≤ 1000, is the number of solutions maximised?
+
+open System
+
+let buildArrays xs ys zs limits = seq{
+                                for x in xs do 
+                                    for y in ys do 
+                                        if x < y then
+                                            for z in zs do 
+                                                if (x*x + y*y = z*z) then
+                                                    for limit in limits do 
+                                                        if (x + y + z = limit) then
+                                                            yield limit, x, y, z}
+
+let First (a,b,c,d) = a
+
+let pyhtosArrays = buildArrays [1..999] [1..999] [1..999] [1..999] 
+                            |> Seq.toList 
+                            |> List.map (fun x -> First x)
+
+let results = pyhtosArrays |> Seq.countBy id 
+                            |> Seq.toList 
+                            |> List.sortByDescending snd
+
+
+//Coin sums - Problem 31
+//In England the currency is made up of pound, £, and pence, p, and there are eight coins in general circulation:
+//
+//1p, 2p, 5p, 10p, 20p, 50p, £1 (100p) and £2 (200p).
+//It is possible to make £2 in the following way:
+//
+//1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 3×1p
+//How many different ways can £2 be made using any number of coins?
+
+let sumCurrencies ones twos fives tens twenties fifties oneHundreds twoHundreds limit = seq{
+                                for twoHundred in twoHundreds do 
+                                    for oneHundred in oneHundreds do 
+                                        for fifty in fifties do
+                                            for twenty in twenties do 
+                                                for ten in tens do 
+                                                     for five in fives do 
+                                                        for two in twos do 
+                                                            for one in ones do 
+                                                                if ((one * 1) + 
+                                                                    (two * 2) + 
+                                                                    (five * 5) + 
+                                                                    (ten * 10) + 
+                                                                    (twenty * 20) + 
+                                                                    (fifty * 50) + 
+                                                                    (oneHundred * 100) + 
+                                                                    (twoHundred * 200)) = limit then
+                                                                        yield one, two, five, ten, twenty, fifty, oneHundred, twoHundred}
+                                                                        
+
+//currency / limit
+let buildCurrencyArray currency limit = List.append [0] [for i=1 to limit/currency do
+                                                            if limit % currency = 0 then
+                                                                yield i]
+
+let buildCurrencyArray_200 = buildCurrencyArray 200 200
+let buildCurrencyArray_100 = buildCurrencyArray 100 200
+let buildCurrencyArray_050 = buildCurrencyArray 50 200
+let buildCurrencyArray_020 = buildCurrencyArray 20 200
+let buildCurrencyArray_010 = buildCurrencyArray 10 200
+let buildCurrencyArray_005 = buildCurrencyArray 5 200
+let buildCurrencyArray_002 = buildCurrencyArray 2 200
+let buildCurrencyArray_001 = buildCurrencyArray 1 200
+
+let variousCurrencyFormulations = 
+            sumCurrencies 
+                buildCurrencyArray_001 
+                buildCurrencyArray_002 
+                buildCurrencyArray_005 
+                buildCurrencyArray_010 
+                buildCurrencyArray_020 
+                buildCurrencyArray_050 
+                buildCurrencyArray_100 
+                buildCurrencyArray_200 200
+
+//let variousCurrencyFormulationsResult = 
+    //variousCurrencyFormulations |> Seq.iter (fun x -> printfn "%A" x)
+
+let variousCurrencyFormulationsResultLength = Seq.length variousCurrencyFormulations
+
+
+
+
+
+
+    
+
+
+
+
+
