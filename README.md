@@ -6,4 +6,4 @@ The Project Euler functions cover primes, factorials, narcissism, random numbers
 
 The statistical functions cover variance, standard deviation, and sum of squares. 
 
-Publishing to NuGet is a new experience for me, so use at your own risk, but feel free to contact me if you have issues. 
+A less up to date version is available as a NuGEt package, https://www.nuget.org/packages/MathematicalLibrary/, with minimal support document on usage and tests here, http://comparative-advantage.com/code/Mathematical.php.
