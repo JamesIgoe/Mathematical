@@ -18,3 +18,25 @@ C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\o
 C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\obj\Release\Mathematical.pdb
 C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\bin\Release\FSharp.Core.dll
 C:\Users\James\Documents\Visual Studio 2013\Projects\Mathematical\Mathematical\bin\Release\FSharp.Core.xml
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\Mathematical.XML
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\obj\Release\Mathematical.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\obj\Release\Mathematical.pdb
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\Mathematical.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\Mathematical.pdb
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\FSharp.Core.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\FSharp.Core.xml
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\cs\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\de\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\en\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\es\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\fr\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\it\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\ja\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\ko\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\pl\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\pt-BR\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\ru\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\tr\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\zh-Hans\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\bin\Release\zh-Hant\FSharp.Core.resources.dll
+C:\Users\igoej\Source\Repos\Mathematical\Mathematical\obj\Release\Libraries.fsproj.CopyComplete
