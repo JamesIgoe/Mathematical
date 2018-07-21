@@ -12,10 +12,10 @@ namespace Libraries.Test
         [TestMethod()]
         public void IsPrimeTest()
         {
-            Boolean resultPrimeTrue = EulerLib.IsPrime(7);
+            var resultPrimeTrue = EulerLib.IsPrime(7);
             Assert.IsTrue(resultPrimeTrue);
 
-            Boolean resultPrimeFalse = EulerLib.IsPrime(6);
+            var resultPrimeFalse = EulerLib.IsPrime(6);
             Assert.IsFalse(resultPrimeFalse);
         }
 
@@ -26,27 +26,17 @@ namespace Libraries.Test
             Assert.IsNotNull(result);
         }
 
-        //[TestMethod()]
-        //public void FindDistinctPrimesTest()
-        //{
-        //    var primes = EulerLib.GetPrimes(100).ToArray();
-        //    var acc = EulerLib.CreateArrayOfInt(1);
-
-        //    var result = EulerLib.FindDistinctPrimeFactors(100, 2, primes, acc);
-        //    Assert.IsNotNull(result);
-        //}
-
         [TestMethod()]
         public void FactorialTest()
         {
-            Int32 result = EulerLib.Factorial(3, 1);
+            var result = EulerLib.Factorial(3, 1);
             Assert.AreEqual(result, 6);
         }
 
         [TestMethod()]
         public void FactorialBigIntTest()
         {
-            System.Numerics.BigInteger result = EulerLib.FactorialBigInt(11);
+            var result = EulerLib.FactorialBigInt(11);
             Assert.AreEqual(result, 39916800);
         }
 
@@ -69,14 +59,14 @@ namespace Libraries.Test
         [TestMethod()]
         public void CollatzSequenceCountTest()
         {
-            int result = EulerLib.CollatzSequenceCount(13, 1);
+            var result = EulerLib.CollatzSequenceCount(13, 1);
             Assert.IsTrue(result == 10);
         }
 
         [TestMethod()]
         public void RandomArrayTest()
         {
-            double[] result = EulerLib.RandomArray(30);
+            var result = EulerLib.RandomArray(30);
             Assert.IsTrue(result.Length == 30);
         }
 

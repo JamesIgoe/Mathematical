@@ -1143,7 +1143,7 @@ let SampleSum3 =
     //start
     let stepUp = SumBelow3 0 4 12 grid.[12] start []
     //stepUp.Length
-    stepUp
+    //stepUp
     let stepUpAgain = SumBelow3 0 8 11 grid.[11] stepUp [] 
     stepUpAgain
 
