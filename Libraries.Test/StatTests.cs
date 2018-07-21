@@ -1,6 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Libraries;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Libraries.Test
 {
